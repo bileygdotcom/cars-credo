@@ -376,29 +376,37 @@ var BACKGROUND = {
 
 var SPRITES = {
   PALM_TREE:              { x:    5, y:    5, w:  215, h:  540 },
-  BILLBOARD08:            { x:  230, y:    5, w:  385, h:  265 },
+  //BILLBOARD08:            { x:  230, y:    5, w:  385, h:  265 },
   TREE1:                  { x:  625, y:    5, w:  360, h:  360 },
   DEAD_TREE1:             { x:    5, y:  555, w:  135, h:  332 },
-  BILLBOARD09:            { x:  150, y:  555, w:  328, h:  282 },
+  //BILLBOARD09:            { x:  150, y:  555, w:  328, h:  282 },
   BOULDER3:               { x:  230, y:  280, w:  320, h:  220 },
   COLUMN:                 { x:  995, y:    5, w:  200, h:  315 },
-  BILLBOARD01:            { x:  625, y:  375, w:  300, h:  170 },
-  BILLBOARD06:            { x:  488, y:  555, w:  298, h:  190 },
-  BILLBOARD05:            { x:  676, y: 1123, w:  300, h:  200 }, //danke - saturn
-  BILLBOARD07:            { x:  313, y:  897, w:  298, h:  190 },
+  BILLBOARD01:            { x: 1182, y: 1123, w:  150, h:  100 },
+  BILLBOARD02:            { x: 1182, y: 1123, w:  150, h:  100 },
+  BILLBOARD03:            { x: 1182, y: 1123, w:  150, h:  100 },
+  BILLBOARD04:            { x: 1182, y: 1123, w:  150, h:  100 },
+  BILLBOARD05:            { x: 1342, y: 1123, w:  150, h:  100 },
+  BILLBOARD06:            { x: 1342, y: 1123, w:  150, h:  100 },
+  BILLBOARD07:            { x: 1342, y: 1123, w:  150, h:  100 },
+  BILLBOARD08:            { x: 1342, y: 1123, w:  150, h:  100 },
+  BILLBOARD09:            { x: 1342, y: 1123, w:  150, h:  100 },
+  //BILLBOARD06:            { x:  488, y:  555, w:  298, h:  190 },
+  //BILLBOARD05:            { x:  676, y: 1123, w:  300, h:  200 }, //danke - saturn
+  //BILLBOARD07:            { x:  313, y:  897, w:  298, h:  190 },
   BOULDER2:               { x:  621, y:  897, w:  298, h:  140 },
   TREE2:                  { x: 1205, y:    5, w:  282, h:  295 },
-  BILLBOARD04:            { x: 1205, y:  310, w:  268, h:  170 },
+  //BILLBOARD04:            { x: 1205, y:  310, w:  268, h:  170 },
   DEAD_TREE2:             { x: 1205, y:  490, w:  150, h:  260 },
   BOULDER1:               { x: 1205, y:  760, w:  168, h:  248 },
   BUSH1:                  { x:    5, y: 1097, w:  240, h:  155 },
   CACTUS:                 { x:  929, y:  897, w:  235, h:  118 },
   BUSH2:                  { x:  255, y: 1097, w:  232, h:  152 },
-  BILLBOARD03:            { x:    5, y: 1262, w:  230, h:  220 },
-  BILLBOARD02:            { x:  245, y: 1262, w:  215, h:  220 },
+  //BILLBOARD03:            { x:    5, y: 1262, w:  230, h:  220 },
+  //BILLBOARD02:            { x:  245, y: 1262, w:  215, h:  220 },
   STUMP:                  { x:  995, y:  330, w:  195, h:  140 },
-  SEMI:                   { x: 1365, y:  490, w:  122, h:  144 },
-  TRUCK:                  { x: 1365, y:  644, w:  100, h:   78 },
+  SEMI:                   { x:  933, y:  670, w:   66, h:   58 }, //alfa
+  TRUCK:                  { x:  924, y:  770, w:   80, h:   39 }, //supper-car
   CAR03:                  { x:  782, y:  750, w:   64, h:   60 }, //dauphine
   CAR02:                  { x: 1080, y:  750, w:   70, h:   80 }, //uazik
   CAR04:                  { x:  848, y:  750, w:   70, h:   60 }, //w201
