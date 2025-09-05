@@ -116,7 +116,7 @@
     var trackLength    = null;                    // z length of entire track (computed)
     var lanes          = 3;                       // number of lanes
     var fieldOfView    = 100;                     // angle (degrees) for field of view
-    var cameraHeight   = 600;                    // z height of camera
+    var cameraHeight   = 600;                     // z height of camera
     var cameraDepth    = null;                    // z distance camera is from screen (computed)
     var drawDistance   = 300;                     // number of segments to draw
     var playerX        = 0;                       // player x offset from center of road (-1 to 1 to stay independent of roadWidth)
@@ -400,7 +400,7 @@
           spriteScale = segment.p1.screen.scale;
           spriteX     = segment.p1.screen.x + (spriteScale * sprite.offset * roadWidth * width/2);
           spriteY     = segment.p1.screen.y;
-          Render.sprite(ctx, width, height, resolution, roadWidth, sprites, sprite.source, spriteScale, spriteX, spriteY, (sprite.offset < 0 ? -1 : 0), -1, segment.clip);
+          Render.sprite(ctx, width, height, resolution, roadWidth, sprites, sprite.source, 2*spriteScale, spriteX, spriteY, (sprite.offset < 0 ? -1 : 0), -1, segment.clip);
         }
 
         if (segment == playerSegment) {

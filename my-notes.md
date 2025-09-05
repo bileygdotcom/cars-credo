@@ -26,6 +26,15 @@ playerZ     = (cameraHeight * cameraDepth);
 => scale = _cameraDepth_/(cameraHeight * _cameraDepth_) = 1/cameraHeight
 => scale = 1/cameraHeight
 
+5. index4 - получилось увеличить масштаб спрайтов окружения отдельно от машин! #398-403
+Добавил множитель масштаба 2 в строку "Render.sprite"
+for(i = 0 ; i < segment.sprites.length ; i++) {
+          sprite      = segment.sprites[i];
+          spriteScale = segment.p1.screen.scale;
+          spriteX     = segment.p1.screen.x + (spriteScale * sprite.offset * roadWidth * width/2);
+          spriteY     = segment.p1.screen.y;
+          Render.sprite(ctx, width, height, resolution, roadWidth, sprites, sprite.source, 2*spriteScale, spriteX, spriteY, (sprite.offset < 0 ? -1 : 0), -1, segment.clip);
+
 
 
 ## максималка
